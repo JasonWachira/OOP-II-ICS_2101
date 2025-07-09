@@ -1,4 +1,4 @@
-public class challenge_3 {
+public class CalculateGradeChallenge {
     private int Mathematics=90;
     private int English=88;
     private int Kiswahili=74;
@@ -56,7 +56,7 @@ public class challenge_3 {
 
     public static void main(String[] args){
 
-        challenge_3 student = new challenge_3();
+        CalculateGradeChallenge student = new CalculateGradeChallenge();
         student.display_results();
     }
 

@@ -1,4 +1,4 @@
-public class challenge_5 {
+public class WhileLoopExercise {
 
     // Demonstrates the use of a while loop in Java
     public void Count() {
@@ -9,7 +9,7 @@ public class challenge_5 {
         }
     }
     public static void main(String[] args){
-        challenge_5 counter = new challenge_5();
+        WhileLoopExercise counter = new WhileLoopExercise();
         counter.Count();
     }
 }

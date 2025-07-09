@@ -1,6 +1,6 @@
 // A program to calculate the compound interest
 // It demonstrates the use of variables in java
-public class challenge_2 {
+public class CalculateInterestChallenge {
     double principal = 20000;
     double rate = 12;
     int months = 23;
@@ -14,7 +14,7 @@ public class challenge_2 {
     }
 
     public static void main(String[] args){
-        double amount = (new challenge_2()).calculateInterest();
+        double amount = (new CalculateInterestChallenge()).calculateInterest();
         System.out.println("The amount is:"+amount);
 
     }

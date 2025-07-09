@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class challenge_4 {
+public class ScannerExercise {
     Scanner sc = new Scanner(System.in);
 
     public void show_Details(){
@@ -20,6 +20,6 @@ public class challenge_4 {
                 " Nice to meet you");
     }
     public static void main(String[] args){
-        (new challenge_4()).show_Details();
+        (new ScannerExercise()).show_Details();
     }
 }

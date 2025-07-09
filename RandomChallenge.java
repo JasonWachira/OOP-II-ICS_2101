@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class challenge_6 {
+public class RandomChallenge {
     public static void main(String[] args) {
         Random dice = new Random();
         int roll1 = dice.nextInt(6) + 1;
